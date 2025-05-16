@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c95c5c;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.highlight {
+  color: yellow;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav span, nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  color: white;
+  margin: 10px 0;
+}
+
+.card p {
+  color: white;
+  font-size: 14px;
+  padding: 0 10px;
+}
